@@ -1,0 +1,17 @@
+[tools]
+gh = "2.98.0"
+hk = "1.40.0"
+pkl = "0.30.2"
+shellcheck = "0.10.0"
+shfmt = "3.11.0"
+
+[settings]
+experimental = false
+
+[tasks.check]
+description = "check the project files"
+run = "hk check"
+
+[tasks.fix]
+description = "fix the project files"
+run = "hk fix"
