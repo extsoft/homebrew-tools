@@ -5,23 +5,23 @@ class ElegantGit < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/extsoft/elegant-git/releases/download/v2026.9.1/eg-v2026.9.1-darwin-arm64.tar.gz"
-      sha256 "ad450c97534357a7f13d2308b7f63c8938a466ca77f4e8f5060bfbdb19b2f993"
+      url "https://github.com/extsoft/elegant-git/releases/download/v2026.9.8/eg-v2026.9.8-darwin-arm64.tar.gz"
+      sha256 "97759983d42c0135c0f6642000d297b162a39adab33eb0684c2cf453b41aaaf2"
     end
     on_intel do
-      url "https://github.com/extsoft/elegant-git/releases/download/v2026.9.1/eg-v2026.9.1-darwin-amd64.tar.gz"
-      sha256 "1e0bb6c5aadf4ca1169118afc37a315ac83ce876b5d7eb887f9c5db98cb21632"
+      url "https://github.com/extsoft/elegant-git/releases/download/v2026.9.8/eg-v2026.9.8-darwin-amd64.tar.gz"
+      sha256 "3f8f885e46789c6ec88fb85a2b327724fa7b09a64e5c58645f4ba7e69c9df0d7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/extsoft/elegant-git/releases/download/v2026.9.1/eg-v2026.9.1-linux-arm64.tar.gz"
-      sha256 "ae6a37ccbf67663b00bccf3c11d4a3e5526d710e84dc2641c2a8c2f678b65540"
+      url "https://github.com/extsoft/elegant-git/releases/download/v2026.9.8/eg-v2026.9.8-linux-arm64.tar.gz"
+      sha256 "e4377dc1b891ba6e0f2252efb94335885194f1e3dfc7aa7aeb60404bbfca9e34"
     end
     on_intel do
-      url "https://github.com/extsoft/elegant-git/releases/download/v2026.9.1/eg-v2026.9.1-linux-amd64.tar.gz"
-      sha256 "2c28affb3ccfbfb8533173a4a6f3b550e9a6644323ed37bd68db1da6fa8dec48"
+      url "https://github.com/extsoft/elegant-git/releases/download/v2026.9.8/eg-v2026.9.8-linux-amd64.tar.gz"
+      sha256 "608ba09ed899232b837c78c954aa1c61144198a5b0aae3b82f365f903c3cb0fa"
     end
   end
 
